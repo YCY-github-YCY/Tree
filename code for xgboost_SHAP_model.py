@@ -40,4 +40,3 @@ shap_values = explainer.shap_values(data[cols])
 
 shap.summary_plot(shap_values, data[cols])
 shap.summary_plot(shap_values, data[cols], plot_type="bar")
-shap.dependence_plot(' ', shap_values, data[cols], interaction_index=None, show=False)
