@@ -1,4 +1,4 @@
-//Function to cloud mask from the pixel_qa band
+//Function to cloud mask from the pixel_qa band of Landsat 8 SR data
 function maskL8sr(image) {
   // Bits 3 and 5 are cloud shadow and cloud, respectively.
   var cloudShadowBitMask = 1 << 3;
